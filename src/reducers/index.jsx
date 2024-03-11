@@ -51,13 +51,6 @@ const initialState = {
         return state;
     }
   };
-  
-  const mapStateToProps = ({ cartItems, orderTotal }) => {
-    return {
-      items: cartItems,
-      total: orderTotal
-    };
-  };
 
   export default reducer;
   
