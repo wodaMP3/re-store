@@ -13,7 +13,7 @@ const App = () => {
       <Route
         path="/"
         element={<HomePage />}
-        exact />
+         />
 
       <Route
         path="/cart"
